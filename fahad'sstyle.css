@@ -1,0 +1,65 @@
+body {
+    margin:0%;
+}
+h1{
+    color:rgb(43, 186, 243) ;
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+}
+
+span { 
+    color:crimson;
+}
+
+h2 { 
+    font-size: 30px;
+    color: darkorange;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: indigo;
+    text-align: justify;
+    box-shadow: 10px 10px 40px darkslateblue;
+    border-radius: 15px;
+    padding: 20px 20px;
+    
+}
+section {
+
+    height: 500px;
+
+}
+.half-width {
+    width: 45%;
+    float: left;
+    margin: 10px 20px;
+}
+
+.half-width img {
+    width: 85%;
+    margin-left:10%;
+    margin-top: 5%;  
+}
+
+.button {
+color: white;
+text-decoration: none;  
+font-weight: bold;
+padding: 10px 20px;
+background-image: linear-gradient(45deg,orange,red);
+border-radius: 10px;
+}
+.top-banner {
+
+background-image: url("images/top-banner.png");
+background-repeat: no-repeat;
+}
+
+.bottom-banner {
+
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    }
